@@ -38,13 +38,14 @@ A free open-sourced bot for Monster Super League using AutoIT programming langua
 
 ---
 ### Configuring your Nox Settings:
-**Step 1**: Enable `Fixed window size` in the Interface settings tab.
 
-![Interface settings](https://i.imgur.com/uVKIVTc.png)
-
-**Step 2**: Change the resolution to custom with **Width: 800**, **Height: 552**, and **DPI: 160**
+**Step 1**: Change the resolution to custom with **Width: 800**, **Height: 552**, and **DPI: 160**
 
 ![Resolution](https://i.imgur.com/tlirVWL.png)
+
+**Step 2**: Enable `Fixed window size` in the Interface settings tab.
+
+![Interface settings](https://i.imgur.com/uVKIVTc.png)
 
 **Step 3**: Change Graphics Rendering mode according to Windows version. Check by pressing `Win+R` and typing **winver**.
   - Version 1709 require **OpenGL**.
@@ -68,7 +69,7 @@ A free open-sourced bot for Monster Super League using AutoIT programming langua
 
 ---
 ### Changing Bot Config:
-**Step 1**: Change Emulator Title, Class and Instance according the the info provided by the AutoIt Window Info *Finder Tool*.
+**Step 1**: Change Emulator Title, Class and Instance according the the info provided by the AutoIt Window Info *Finder Tool*. over the Nox window to see Basic Window and Control Info.
 
 *Note: If your title is 'Nox', you need to edit it to a different name such as NoxPlayer or Nox1. The bot will not be able to detect the instance if the title is 'Nox'.
 
@@ -142,7 +143,6 @@ A free open-sourced bot for Monster Super League using AutoIT programming langua
   - Open Debug Input `Ctrl+D` and enter `getLocation()` to ensure  the following locations are being recognized:
     - `quests`, `monsters-astromon`, `manage`, `gem-upgrade`, `refill`, and `refill-confirm`
   - If the locations say 'unknown' on the log, proceed with the following troubleshooting.
-  - If the location is `village` in the airship and `map` in the map, your problem is different.
 
 ---
 **Using the RestartNox() function**: 
