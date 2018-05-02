@@ -140,7 +140,7 @@ A free open-sourced bot for Monster Super League using AutoIT programming langua
 ### Script looping in airship or doing nothing.
 #### Before troubleshooting for this problem:
   - Open Debug Input `Ctrl+D` and enter `getLocation()` to ensure  the following locations are being recognized:
-    - `quests`, `monsters-astromon` Astromon Box, `manage` Gem Inventory, `gem-upgrade`, `refill` Energy Menu, and `refill-confirm`
+    - `quests`, `monsters-astromon`, `manage`, `gem-upgrade`, `refill`, and `refill-confirm`
   - If the locations say 'unknown' on the log, proceed with the following troubleshooting.
   - If the location is `village` in the airship and `map` in the map, your problem is different.
 
