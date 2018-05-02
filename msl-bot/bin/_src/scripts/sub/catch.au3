@@ -68,7 +68,7 @@ Func catch($aImages, ByRef $iAstrochips)
             If (FileExists($g_sAdbPath) = True) And (StringInStr(adbCommand("get-state"), "error") = False) Then ;speed catch
                 Log_Add("Double ESCAPE for quick catch.")
                 adbSendESC()
-                adbSendESC()
+                clickPoint(getArg($g_aPoints, "battle-continue"))
             EndIf
 
             Local $t_hTimer = TimerInit()
